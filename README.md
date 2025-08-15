@@ -3,7 +3,7 @@
 **Author:** Telegram [@rizkihdyt](https://t.me/rizkihdyt)  
 **Donasi:**
 
-![QRIS Donasi](qris_donasi.png)
+![QRIS Donasi](https://raw.githubusercontent.com/tuyulbot/Warp-warp-/main/qr_ID1024310490650_12.07.25_175233524_1752335246873.jpeg)
 
 # Dokumentasi Instalasi & Konfigurasi WARP WireProxy (SOCKS5 Publik)
 
