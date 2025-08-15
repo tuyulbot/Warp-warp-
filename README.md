@@ -1,3 +1,9 @@
+# Dokumentasi Instalasi & Konfigurasi WARP WireProxy (SOCKS5 Publik)
+
+**Author:** Telegram [@rizkihdyt](https://t.me/rizkihdyt)  
+**Donasi:**
+
+![QRIS Donasi](qris_donasi.png)
 
 # Dokumentasi Instalasi & Konfigurasi WARP WireProxy (SOCKS5 Publik)
 
