@@ -1,6 +1,4 @@
-# Dokumentasi Instalasi & Konfigurasi WARP WireProxy (SOCKS5 Publik)
-
-# Dokumentasi Instalasi & Konfigurasi WARP WireProxy (SOCKS5 Publik)
+# Dokumentasi Instalasi & Konfigurasi WARP WireProxy (SOCKS5 Publik) sistem routing
 
 ## 1. Instalasi WARP via fscarmen script
 Jalankan perintah berikut:
@@ -131,6 +129,7 @@ tcpdump -i any tcp port 40001
 - Selalu gunakan autentikasi pada SOCKS5 publik
 - Batasi IP yang boleh akses
 - Jangan biarkan open proxy tanpa kontrol, rawan disalahgunakan
+- Bisa digunakan untuk banyak server warpnya
 
 **Author:** Telegram [@rizkihdyt](https://t.me/rizkihdyt)  
 **Coffe Me:**
