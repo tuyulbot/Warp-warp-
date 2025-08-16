@@ -38,7 +38,7 @@ Keterangan:
 - `[::]` → bind ke semua interface IPv4 & IPv6 (dual-stack)
 - Tambahkan `Username` dan `Password` untuk keamanan
 - Gunakan password kuat
-- atau bisa tanpa username dan password
+- atau bisa tanpa username dan password ( Rekomendasi tmbhin autentikasi user:pass )
 
 ---
 
@@ -71,15 +71,15 @@ LISTEN 0      128    *:40001     *:*    users:(("wireproxy",pid=xxxx,fd=xx))
 ## 6. Tes SOCKS5 dari luar VPS
 **Cek IPv4 via SOCKS5**
 ```bash
-curl --socks5-hostname 103.127.156.78:40001 -4 https://api.ipify.org?format=json
+curl --socks5-user userku:passku123 --socks5-hostname 103.127.156.78:40001 -4 https://api.ipify.org?format=json
 ```
 **Cek IPv6 via SOCKS5**
 ```bash
-curl --socks5-hostname 103.127.156.78:40001 -6 https://api64.ipify.org?format=json
+curl --socks5-user userku:passku123 --socks5-hostname 103.127.156.78:40001 -6 https://api64.ipify.org?format=json
 ```
 **Cek status WARP**
 ```bash
-curl --socks5-hostname 103.127.156.78:40001 https://www.cloudflare.com/cdn-cgi/trace
+curl --socks5-user userku:passku123 --socks5-hostname 103.127.156.78:40001 https://www.cloudflare.com/cdn-cgi/trace
 ```
 Pastikan ada `warp=on` pada hasilnya.
 
