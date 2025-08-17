@@ -24,6 +24,26 @@ nano /etc/wireguard/proxy.conf
 ```
 Cari bagian:
 ```ini
+[Interface]
+MTU = 1420
+```
+Ubah jadi:
+```ini
+[Interface]
+MTU = 1400
+```
+Cari bagian:
+```ini
+[Peer]
+# PersistentKeepalive = 25
+```
+Ubah jadi ( Hapus # ):
+```ini
+[Peer]
+PersistentKeepalive = 25
+```
+Cari bagian:
+```ini
 [Socks5]
 BindAddress = 127.0.0.1:40001
 ```
